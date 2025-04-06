@@ -10,6 +10,13 @@ h1 {
     color: darkgreen;
     border-bottom: 3px solid darkgreen;
     padding-bottom: 10px;
+ 
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    width:100%; 
+    margin: 20px 0;
 }
 
 h2 {
@@ -45,6 +52,28 @@ ul {
     padding-left: 20px;
 }
 
+.center-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
 li {
     margin-bottom: 5px;
+}
+
+.back-to-top {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.back-to-top a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
 }
